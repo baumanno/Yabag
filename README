@@ -28,8 +28,15 @@ To run Yabag:
 
 That's all!
 
+###############
+# 3. Gameplay #
+###############
+
+Its plain simple: balls speed across the screen. If your mousepointer
+hits a ball, you loose. The longer you last, the better (as usual...)
+
 #################
-# 3. Difficulty #
+# 4. Difficulty #
 #################
 
 If you are some sort of fleet-fingered mouse-meister, Yabag might be
@@ -41,7 +48,7 @@ a bit too easy for you. Try changing some variables:
            (a lower value results in increased difficulty)
 
 ###############
-# 4. Feedback #
+# 5. Feedback #
 ###############
 
 Feel free to send any sort of feedback.
