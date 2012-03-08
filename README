@@ -1,2 +1,51 @@
 Yabag - Yet Another Ball Game 
-TODO: Content
+
+##############
+# 1. Install #
+##############
+
+Yabag requires the Pygame-library for Python, you can obtain it from
+http://pygame.org/download.shtml or via your distro's repositories;
+Ubuntu 11.10 (Oneiric) for example keeps it as 'python-pygame'.
+
+Furthermore, you need to have a new-ish version of Python on your system.
+
+Then, checkout the repository into the desired folder, for example:
+
+  cd ~/Games
+  git clone git://github.com/baumanno/Yabag.git
+
+This will create a folder 'Yabag' in ~/Games.
+
+##########
+# 2. Run #
+##########
+
+To run Yabag:
+
+  cd ~/Games/Yabag
+  python run.py
+
+That's all!
+
+#################
+# 3. Difficulty #
+#################
+
+If you are some sort of fleet-fingered mouse-meister, Yabag might be
+a bit too easy for you. Try changing some variables:
+
+  run.py:7 Change 'numBalls' to set the total number of balls
+           (a higher number results in increased difficulty)
+  run.py:8 Change 'delay' to set the overall speed of the game loop
+           (a lower value results in increased difficulty)
+
+###############
+# 4. Feedback #
+###############
+
+Feel free to send any sort of feedback.
+You'll surely find the email somewhere on github ;-)
+
+
+-- Have fun!!

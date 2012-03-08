@@ -4,8 +4,8 @@ import random
 ballpic = image.load('ball.png')
 ballpic.set_colorkey((0,0,0))
 
-numBalls = 5
-delay = 5
+numBalls = 5 # Number of total balls
+delay = 5 # Overall speed
 
 done = False
 
